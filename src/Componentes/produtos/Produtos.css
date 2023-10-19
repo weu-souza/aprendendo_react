@@ -1,0 +1,26 @@
+.produtos-container {
+    display: grid;
+    margin-top: 60px;
+
+}
+
+.produtos-h1 {
+    margin: 0 60px;
+    color: purple;
+}
+.produtos-bg{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px 60px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.produtos-nome {
+font-weight: bold;
+    color: #222222;
+    margin: 10px ;
+
+}
+.produtos-propriedades{
+margin: 10px;
+}

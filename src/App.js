@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Header from "./Componentes/header/Header";
+import produtos from "./Componentes/produtos/Produtos";
+import home from "./Componentes/Home/Home";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    let Pagina;
+    const {pathname} = window.location;
+    if (pathname === '/produtos') {
+        Pagina = produtos;
+    } else {
+        Pagina = home;
+    }
+    return (
+        <div>
+            <Header/>
+            <Pagina/>
+
+        </div>
+    );
 }
 
 export default App;

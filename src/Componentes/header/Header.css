@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    margin: 10px ;
+}
+.lista{
+    margin-right: 5px;
+    border-bottom: 1px solid #222;
+    padding: 5px;
+    color: #222222;
+
+}
+.lista:hover{
+    background: #000;
+    color: white;
+    font-weight:bold ;
+}

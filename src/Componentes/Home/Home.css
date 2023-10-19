@@ -1,0 +1,13 @@
+.container-home{
+ display: grid;
+ margin-top: 60px;
+
+}
+.home-h1{
+ margin: 0 60px;
+ color: purple;
+}
+.home-p{
+ margin: 20px 30px;
+
+}
